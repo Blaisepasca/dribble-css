@@ -16,6 +16,7 @@ header{
     justify-content: space-between;
     padding-right: 40px;
     padding-left: 40px;
+    background-color: #f9f7f4;
 }
 header ul{
     display: flex;
@@ -71,5 +72,47 @@ header .menu .btn-group .signup{
 }
 header .menu .btn-group .signup:hover{
     background-color: #272727;
+}
+                /* Main*/
+#main{
+    width: 100%;
+    width:100%;
+    background-color: #f9f7f4;
+    position: relative;
+}
+            /* Page 1 */
+#page1{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#page1 .btn-page1{
+    background-color: #ffda79;
+    text-decoration: none;
+    color: #0d0c22;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#page1 h1{
+    font-size: 72px;
+    line-height:76px ;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 870px;
+}
+#page1 p{
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+
 }
 
